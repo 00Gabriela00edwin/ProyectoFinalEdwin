@@ -11,14 +11,16 @@ const NavBar = () => {
   <img 
     src={logo} 
     alt="Logo AYG Bombillas" 
-    style={{ width: "100px", height: "auto", marginRight: "12px" }} 
+    style={{ width: "100px", height: "auto", marginRight: "1px" }} 
   />
 </Link>
+
+
 
         <ul>
           <li><Link to="/category/alpaca">Alpaca</Link></li>
           <li><Link to="/category/bronce">Bronce</Link></li>
-        
+      
         </ul>
 
         <CartWidget />

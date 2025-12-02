@@ -19,8 +19,13 @@ function App() {
         <Route path="/checkout" element={<CheckoutForm />} /> 
         <Route path="*" element={<h2 style={{ textAlign: "center" }}>404 - Página no encontrada</h2>} />
       </Routes>
-    </CartContextProvider>
-  );
-}
+          <footer style={{ marginTop: "50px", textAlign: "center", color: "white", padding: "20px", fontSize: "0.9rem", width: "100%" }}>
+        <p>Página desarrollada por Gabriela Edwin 2025</p>
+    </footer>
+             {/* ------------------------------------ */}
 
+  </CartContextProvider>
+);
+}
+   
 export default App;
