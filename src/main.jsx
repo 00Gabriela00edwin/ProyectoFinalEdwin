@@ -8,7 +8,7 @@ import "./App.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   
-  <BrowserRouter>
+  <BrowserRouter basename="/ProyectoFinalEdwin">
     <App />
   </BrowserRouter>
 );
